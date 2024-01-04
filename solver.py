@@ -4,9 +4,9 @@ def total_sundays(input_year, input_month):
     current_day = 0
     total_sundays = 0
     for current_year in range(1, input_year+1):
-        
-        for current_month in range(1,13):
-            if current_year >= 1 and current_month >= 1 and current_year <= input_year and current_month <= input_month:
+        end_month_counter = input_month if current_year == input_year else 12
+        for current_month in range(1,end_month_counter+1):
+            if current_year >= 1 and current_year <= input_year:
                 if current_day == 6:
                     total_sundays += 1
         
