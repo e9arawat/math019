@@ -9,7 +9,7 @@ def total_sundays(input_year, input_month):
     for current_year in range(1, input_year + 1):
         end_month_iter = input_month if current_year == input_year else 12
         for month in range(1, end_month_iter + 1):
-            if current_year >= 1 and current_year <= input_year:
+            if 1 <= current_year <= input_year:
                 if current_day == 6:
                     sundays += 1
             if month == 2:

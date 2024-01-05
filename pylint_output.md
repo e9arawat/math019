@@ -1,0 +1,9 @@
+""" Pylint for answer.py  """
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 0.00/10, +10.00)
+
+""" Pylint for solver.py """
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +10.00)
